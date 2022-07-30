@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+bnbphoneticparser/__init__.py
+bnbphoneticparser/banglishtobengali.py
+bnbphoneticparser/bengaliphoneticparser.py
+bnbphoneticparser/bengalitobanglish.py
+bnbphoneticparser.egg-info/PKG-INFO
+bnbphoneticparser.egg-info/SOURCES.txt
+bnbphoneticparser.egg-info/dependency_links.txt
+bnbphoneticparser.egg-info/top_level.txt
+tests/__init__.py
+tests/testbanglishtobengali.py
+tests/testbengalitobanglish.py

@@ -1,0 +1,3 @@
+from __future__ import annotations
+
+def tz_convert_from_utc_single(val: int, tz: str) -> int: ...
