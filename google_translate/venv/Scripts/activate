@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\rober\Desktop\Scrapy\____Selenium____\testRun4\venv"
+VIRTUAL_ENV="C:\Users\rober\Desktop\upstream\google_translate\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

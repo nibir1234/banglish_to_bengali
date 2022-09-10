@@ -7,7 +7,7 @@ import time
 
 import pandas as pd
 
-xls = pd.ExcelFile(r"Book2.xlsx")
+xls = pd.ExcelFile(r"New Sentences.xlsx")
 sheetX = xls.parse(0)
 var1 = sheetX['Banglish'].astype('string')
 
@@ -31,7 +31,7 @@ input_text = driver.find_element(
     By.XPATH, '//textarea[@id="tw-source-text-ta"]')
 time.sleep(1)
 out_csv = []
-output_csv_file = "output_xl5.csv"
+output_csv_file = "output_xl_new_sentences.csv"
 
 # for i in range(len(var1)):
 for i in range(len(var1)):
@@ -75,3 +75,4 @@ for i in range(len(var1)):
 
 
 # time.sleep(300)
+driver.close()
